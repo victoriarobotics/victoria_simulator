@@ -19,6 +19,7 @@
     <run_depend>gazebo_ros</run_depend>
     <run_depend>gazebo_ros_control</run_depend>
     <run_depend>victoria_description</run_depend>
+    <run_depend>victoria_control</run_depend>
     <run_depend>pointcloud_to_laserscan</run_depend>
     <run_depend>robot_state_publisher</run_depend>
     <run_depend>rostopic</run_depend>
