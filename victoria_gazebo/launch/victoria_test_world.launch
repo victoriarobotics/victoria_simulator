@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <launch>
 
-  <arg name="world_name" default="worlds/empty.world"/>
+  <arg name="world_name" default="$(find victoria_gazebo)/worlds/test_world.world"/>
   <arg name="laser_enabled" default="true"/>
   <arg name="kinect_enabled" default="true"/>
 
