@@ -73,7 +73,9 @@ before_install:
   # Prepare rosdep to install dependencies.
   - sudo rosdep init
   - rosdep update
-
+  - sudo apt-get install ros-${ROS_DISTRO}-gazebo-ros-pkgs
+  - sudo apt-get install ros-${ROS_DISTRO}-filters
+  - sudo apt-get install ros-${ROS_DISTRO}-laser-geometry
 # Create a catkin workspace with the package under integration.
 install:
   - mkdir -p ~/catkin_ws/src
