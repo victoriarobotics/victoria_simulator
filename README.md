@@ -6,8 +6,10 @@ Gazebo simulation of the Victoria Platform.
 
 - ROS Kinetic
 - Gazebo 7
-- victoria_base
-- victoria_control
+- ros-kinectic-filters
+- ros-kinectic-laser-geometry
+- victoria_base https://github.com/victoriarobotics/victoria_base
+- victoria_ros https://github.com/victoriarobotics/victoria_ros
 
 # How to:
 
