@@ -15,8 +15,12 @@ Gazebo simulation of the Victoria Platform.
 
 To launch victoria robot on an empty world:
 
-$ roslaunch victoria_gazebo victoria_empty_world.launch 
+```
+$ roslaunch victoria_gazebo victoria_empty_world.launch
+```
 
 To launch victoria robot on the test world:
 
+```
 $ roslaunch victoria_gazebo victoria_test_world.launch 
+```
